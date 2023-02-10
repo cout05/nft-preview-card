@@ -1,0 +1,208 @@
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+* {
+  margin: 0;
+}
+
+html,
+body {
+  height: 100%;
+}
+
+body {
+  line-height: 1.5;
+  -webkit-font-smoothing: antialiased;
+}
+
+img,
+picture,
+video,
+canvas,
+svg {
+  display: block;
+  max-width: 100%;
+}
+
+input,
+button,
+textarea,
+select {
+  font: inherit;
+}
+
+p,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  overflow-wrap: break-word;
+}
+
+/*General Styling*/
+
+body {
+  height: 100vh;
+  font-family: "Outfit", sans-serif;
+  background-color: hsl(217, 54%, 11%);
+}
+
+.nft_card {
+  display: grid;
+  place-items: center;
+  margin-top: 15vh;
+}
+
+.card_container {
+  display: grid;
+  gap: 1rem;
+  background-color: hsl(216, 50%, 16%);
+  padding: 1rem;
+  width: 300px;
+  border-radius: 10px;
+  box-shadow: -5px 15px 5px 0px hsl(212, 42%, 12%);
+}
+
+.img_container {
+  position: relative;
+}
+
+.Equilibrium_img {
+  width: 300px;
+  border-radius: 10px;
+  margin: auto;
+}
+
+.overlay {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  opacity: 0;
+  transition: opacity 0.3s ease;
+  background-color: hsl(178, 100%, 50%);
+  border-radius: 10px;
+}
+
+.overlay:hover {
+  opacity: 0.5;
+  cursor: pointer;
+}
+
+.view_img {
+  position: absolute;
+  top: 110px;
+  bottom: 0;
+  left: 110px;
+  right: 0;
+  opacity: 0;
+  transition: opacity 0.3s ease;
+}
+
+.img_container:hover .view_img {
+  opacity: 0.5;
+}
+
+.nft_name {
+  color: hsl(0, 0%, 100%);
+  font-size: 1.15625rem;
+  text-decoration: none;
+}
+
+.nft_name:hover {
+  cursor: pointer;
+  color: hsl(178, 100%, 50%);
+}
+
+.nft_description {
+  color: hsl(215, 51%, 70%);
+  font-weight: 300;
+  font-size: 1rem;
+}
+
+.eth_icon {
+  margin-right: 5px;
+  width: 11px;
+  height: 16px;
+}
+
+.eth {
+  display: flex;
+  color: hsl(178, 100%, 50%);
+  font-size: 0.9rem;
+  align-items: center;
+  flex-wrap: wrap;
+}
+.time {
+  display: flex;
+  color: hsl(215, 51%, 70%);
+  font-size: 0.9rem;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.clock_icon {
+  margin-right: 5px;
+  width: 15px;
+  height: 16px;
+  margin-bottom: 1px;
+}
+
+.flex_items {
+  display: flex;
+  gap: 5rem;
+}
+
+hr {
+  border: none;
+  height: 1px;
+  background-color: hsl(215, 51%, 70%);
+}
+
+.creator {
+  display: flex;
+  gap: 0.4rem;
+}
+
+.avatar_img {
+  width: 30px;
+  border: 1px solid hsl(0, 0%, 100%);
+  border-radius: 100px;
+}
+
+.name {
+  color: hsl(215, 51%, 70%);
+  font-size: 0.9rem;
+  margin-top: auto;
+  margin-bottom: auto;
+}
+
+.creators_name {
+  color: hsl(0, 0%, 100%);
+  font-weight: 300;
+  font-size: 0.9rem;
+  text-decoration: none;
+  margin-top: auto;
+  margin-bottom: auto;
+}
+
+.creators_name:hover {
+  cursor: pointer;
+  color: hsl(178, 100%, 50%);
+}
+
+footer {
+  position: relative;
+  top: 60px;
+  font-size: 11px;
+  text-align: center;
+}
+footer a {
+  color: hsl(228, 45%, 44%);
+}

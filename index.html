@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- displays site properly based on user's device -->
+    <link rel="stylesheet" href="style.css" />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./images/favicon-32x32.png" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;600&display=swap"
+      rel="stylesheet" />
+    <title>Frontend Mentor | NFT preview card component</title>
+  </head>
+  <body>
+    <main>
+      <article class="nft_card">
+        <div class="card_container">
+          <div class="img_container">
+            <div class="overlay"></div>
+            <img
+              src="images/image-equilibrium.jpg"
+              alt="equilibrium"
+              class="Equilibrium_img" />
+
+            <img src="images/icon-view.svg" alt="view" class="view_img" />
+          </div>
+          <a href="#" class="nft_name">Equilibrium #3429</a>
+          <p class="nft_description">
+            Our Equilibrium collection promotes balance and calm.
+          </p>
+          <div class="flex_items">
+            <div class="eth">
+              <img src="images/icon-ethereum.svg" alt="" class="eth_icon" />
+              <p class="nft_price">0.041 ETH</p>
+            </div>
+
+            <div class="time">
+              <img src="images/icon-clock.svg" alt="" class="clock_icon" />
+              <p class="nft_time">3 days left</p>
+            </div>
+          </div>
+          <hr />
+          <div class="creator">
+            <img
+              src="images/image-avatar.png"
+              alt="image-avatar"
+              class="avatar_img" />
+            <p class="name">Creation of</p>
+            <a href="#" class="creators_name">Jules Wyvern</a>
+          </div>
+        </div>
+      </article>
+    </main>
+
+    <footer>
+      Challenge by
+      <a href="https://www.frontendmentor.io?ref=challenge" target="_blank"
+        >Frontend Mentor</a
+      >. Coded by <a href="#">Jerico</a>.
+    </footer>
+  </body>
+</html>
