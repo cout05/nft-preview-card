@@ -21,5 +21,5 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
+- Solution URL: [Solution URL](https://github.com/cout05/nft-preview-card.git)
 - Live Site URL: [Add live site URL here](https://your-live-site-url.com)
